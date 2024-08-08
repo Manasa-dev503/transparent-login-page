@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f2027;  
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027); 
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027); 
+}
+.bg-img{
+  width: 430px;
+  height: 520px;
+  background: rgba(0,0,0,0.5);
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.content{
+  text-align: center;
+}
+header{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 35px;
+}
+.field{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background: rgba(255,255,255,0.1);
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.field span{
+  color: #E5E5E5;
+  width: 50px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+}
+.field input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+.space{
+  margin-top: 16px;
+}
+.show{
+  position: absolute;
+  right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+}
+.pass-key:valid ~ .show{
+  display: block;
+}
+.pass{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.pass a{
+  color: white;
+  text-decoration: none;
+}
+.pass:hover a{
+  text-decoration: underline;
+}
+.field input[type="submit"]{
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.field input[type="submit"]:active{
+  background: #2691d9;
+}
+.login{
+  color: white;
+  margin: 10px 0;
+  font-size: 17px;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.links div{
+  width: 48%;
+  height: 45px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.2);
+  cursor: pointer;
+}
+.links .google{
+  text-align: center;
+  line-height: 45px;
+  color: white;
+}
+.links .google:hover{
+  background: #3b5998;
+  border: 1px solid #3b5998;
+}
+.links .instagram{
+  text-align: center;
+  line-height: 45px;
+  color: white;
+}
+.links .instagram:hover{
+  background: #e4405f;
+  border: 1px solid #e4405f;
+}
+.signup{
+  margin-top: 20px;
+  color: white;
+}
+.signup a{
+  color: #3498db;
+  text-decoration: none;
+}
+.signup a:hover{
+  text-decoration: underline;
+}
+
+  
